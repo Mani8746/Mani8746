@@ -16,7 +16,7 @@ import seaborn as sns
 
 dataset = pd.read_csv("USA_Housing.csv")
 
-# Printing first 5 records of the dataset
+# Printing first 5 records of dataset
 print(dataset.head(5))
 
 obj = (dataset.dtypes == 'object')
